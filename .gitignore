@@ -2,3 +2,10 @@
 __pycache__
 *.pyc
 *.so
+
+bazel-bin
+bazel-out
+bazel-pybind-sandbox
+bazel-testlogs
+build/
+*.egg-info/
