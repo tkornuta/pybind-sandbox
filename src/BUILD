@@ -5,5 +5,5 @@ cc_library(
     name = "my_math_ext",
     srcs = ["my_math_ext.cpp"],
     hdrs = ["my_math_ext.hpp"],
-    includes = ["."]
+    deps = ["@pybind11_repo"]
 )
